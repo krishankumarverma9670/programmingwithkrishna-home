@@ -2607,6 +2607,9 @@ p {
 .dark-theme .footerbg {
 	background-color: black;
 }
+.footerbg {
+	background-color: white;
+}
 .dark-theme .footertext {
 	color: white;
 }

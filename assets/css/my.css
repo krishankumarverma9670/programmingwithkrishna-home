@@ -216,17 +216,15 @@ html{
     background-image: linear-gradient(to top,black 15%,#FF6600 85%);
   }
   .gradient7{
-    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
+    background-image: linear-gradient(to top,black 15%,#FFFF66 85%);
   }
   .gradient8{
-    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
+    background-image: linear-gradient(to top,black 15%,#00CCFF 85%);
   }
   .gradient9{
-    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
+    background-image: linear-gradient(to top,black 15%,#FF99CC 85%);
   }
-  .gradient10{
-    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
-  }
+  
 
  .scrollup{
   background: white;
