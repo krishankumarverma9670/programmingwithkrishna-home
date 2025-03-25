@@ -1,0 +1,253 @@
+/*=============================
+	1. Google Fonts
+===============================*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&amp;display=swap');
+:root {
+	--font-family: "Bricolage Grotesque", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.self{
+    font-family: var(--font-family);
+}
+
+/* Skills Section */
+.skills {
+    background-color: #f9fafb;
+}
+
+.skills-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.skill-category h3::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #4a6cf7;
+}
+
+.skill-items {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.skill-item {
+    width: 100%;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill-info h4 {
+    font-weight: 500;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: #4770FF;
+    border-radius: 10px;
+    transition: width 1.5s ease-in-out;
+    margin-left: 0;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 10px;
+}
+
+@media (max-width: 435px) {
+    .header-area .container .navbar-brand span {
+
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1em;
+        color: var(--black);
+    
+    }
+  }
+  @media (max-width: 405px) {
+    .header-area .container .navbar-brand span {
+
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 1em;
+        color: var(--black);
+    
+    }
+  }
+  @media (max-width: 370px) {
+    .header-area .container .navbar-brand span {
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1em;
+        color: var(--black);
+    
+    }
+  }
+  @media (max-width: 335px) {
+    .header-area .container .navbar-brand span {
+
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1em;
+        color: var(--black);
+    
+    }
+  }
+  @media (max-width: 295px) {
+    .header-area .container .navbar-brand span {
+
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1em;
+        color: var(--black);
+    
+    }
+  }
+  @media (max-width: 290px) {
+    .header-area .container .navbar-brand span {
+
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 1em;
+        color: var(--black);
+    
+    }
+  }
+
+  /* -------------my image -------- */
+  @media (max-width: 340px) {
+    .image-container {   
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        border: 2px solid var(--primary-bg);
+        box-shadow: 0px 0px 25px #1e293b,
+                    0px 0px 25px #1e293b inset;
+      }
+  }
+
+  /* -----myproperty ------ */
+
+  .myproperty1{
+    margin-top: 20px;
+    width: 100%;
+  }
+  .myproperty2{
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .myproperty3{
+    width: 24px;
+    height: 24px;
+  }
+  .myproperty4{
+    color: #4770FF;
+  }
+  .myproperty5{
+    padding-bottom: 50px;
+  }
+  .myproperty6{
+    margin-top: 16px;
+  }
+  .myproperty7{
+    background-color: white;
+  }
+  .myproperty8{
+    color: white;
+  }
+  .myproperty9{
+    margin: 0px auto;
+  }
+ 
+  .gradient1{
+    background-image: linear-gradient(to top,black 15%, red 85%);
+  }
+  .gradient2{
+    background-image: linear-gradient(to top,black 15%,#4770FF 85%);
+  }
+  .gradient3{
+    background-image: linear-gradient(to top,black 15%,green 85%);
+  }
+  .gradient4{
+    background-image: linear-gradient(to top,black 15%,#663333 85%);
+  }
+  .gradient5{
+    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
+  }
+  .gradient6{
+    background-image: linear-gradient(to top,black 15%,#FF6600 85%);
+  }
+  .gradient7{
+    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
+  }
+  .gradient8{
+    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
+  }
+  .gradient9{
+    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
+  }
+  .gradient10{
+    background-image: linear-gradient(to top,black 15%,#FF00FF 85%);
+  }
+
+ .scrollup{
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+ }
+ .scrollup.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+ }

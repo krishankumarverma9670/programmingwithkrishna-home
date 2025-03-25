@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&amp;display=swap');
+:root {
+	--font-family: "Bricolage Grotesque", sans-serif;
+}
+.code-editor {
+    max-width: 500px;
+    background-color: #1d1e22;
+    box-shadow: 5px 10px 30px black;
+    border-radius: 8px;
+    padding: 2px;
+  }
+    
+  .headersuptitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .title {
+    font-family: var(--font-family) ;
+    font-weight: 500;
+    font-size: 14px;
+    
+    color: rgb(212 212 212);
+  }
+  
+  .icon {
+    width: 20px;
+    transition: .2s ease;
+  }
+  
+  .icon:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #6e7281;
+  }
+  
+  .editor-content {
+    margin: 0 10px 10px;
+    color: white;
+  }
+  
+  .property {
+    margin-left: 30px;
+  }
+  
+  .property:hover {
+    cursor: text;
+  }
+  
+  .editor-content .color-0 {
+    color: rgb(86 156 214);
+  }
+  
+  .editor-content .color-1 {
+    color: rgb(182 206 168);
+  }
+  
+  .editor-content .color-2 {
+    color: rgb(156 220 254);
+  }
+  
+  .editor-content .color-3 {
+    color: rgb(207 146 120);
+  }
+  
+  .color-preview-1,.color-preview-2 {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-right: 3px;
+  }
+  
+  .color-preview-1 {
+    background-color: #1d1e22;
+  }
+  
+  .color-preview-1 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+  /* colors */
+
+  .arrow {
+    color: #2b3741;
+  }
+  .dike{
+    color: #fb64b6;
+  }
+  .classcolor {
+    color: #cad5e2;
+  }
+  .attributeval{
+    color: #72cff9;
+  }
+
+
+
+
+  /* suptitle-------------- */
+  .art-code {
+    font-family: "Courier Prime", monospace;
+    color: #fafafc; }
+    /* line 88, ../scss/_content.scss */
+    .art-code i {
+      font-style: normal;
+      color: #fb64b6; }
+      .art-code {
+        margin-bottom: 0; }
+
+        .art-lg-text {
+            font-size: 16px; }
